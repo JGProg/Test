@@ -8,7 +8,7 @@
 
 #import "TBAppDelegate.h"
 
-#import "TBMainViewController.h"
+#import "TB_DefaultView.h"
 
 @implementation TBAppDelegate
 
@@ -19,8 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    TBMainViewController *controller = (TBMainViewController *)self.window.rootViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    TB_DefaultView *controller = (TB_DefaultView *)self.window.rootViewController;
+    //controller.managedObjectContext = self.managedObjectContext;
     return YES;
 }
 							

@@ -17,7 +17,6 @@
 		73D923C41729C309004E5BCD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D923C31729C309004E5BCD /* Default.png */; };
 		73D923C61729C309004E5BCD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D923C51729C309004E5BCD /* Default@2x.png */; };
 		73D923C81729C309004E5BCD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D923C71729C309004E5BCD /* Default-568h@2x.png */; };
-		73D923CB1729C309004E5BCD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D923C91729C309004E5BCD /* MainStoryboard.storyboard */; };
 		73D923CE1729C309004E5BCD /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73D923CC1729C309004E5BCD /* Test.xcdatamodeld */; };
 		73D923D11729C309004E5BCD /* TBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D923D01729C309004E5BCD /* TBMainViewController.m */; };
 		73D923D41729C309004E5BCD /* TBFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D923D31729C309004E5BCD /* TBFlipsideViewController.m */; };
@@ -27,6 +26,11 @@
 		73D923DF1729C309004E5BCD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D923B51729C309004E5BCD /* CoreData.framework */; };
 		73D923E71729C309004E5BCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73D923E51729C309004E5BCD /* InfoPlist.strings */; };
 		73D923EA1729C309004E5BCD /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D923E91729C309004E5BCD /* TestTests.m */; };
+		73D923F41729C430004E5BCD /* Storyboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D923F31729C430004E5BCD /* Storyboard-iPad.storyboard */; };
+		73D923FD1729C861004E5BCD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D923FB1729C861004E5BCD /* MainStoryboard.storyboard */; };
+		73D924001729CB2F004E5BCD /* TB_DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D923FF1729CB2F004E5BCD /* TB_DefaultView.m */; };
+		73D9240B1729CF6E004E5BCD /* InputsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D9240A1729CF6E004E5BCD /* InputsView.xib */; };
+		73D9240E1729D179004E5BCD /* TB-ToolsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D9240D1729D179004E5BCD /* TB-ToolsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,18 +58,24 @@
 		73D923C31729C309004E5BCD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		73D923C51729C309004E5BCD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		73D923C71729C309004E5BCD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		73D923CA1729C309004E5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		73D923CD1729C309004E5BCD /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
-		73D923CF1729C309004E5BCD /* TBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBMainViewController.h; sourceTree = "<group>"; };
-		73D923D01729C309004E5BCD /* TBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBMainViewController.m; sourceTree = "<group>"; };
-		73D923D21729C309004E5BCD /* TBFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBFlipsideViewController.h; sourceTree = "<group>"; };
-		73D923D31729C309004E5BCD /* TBFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBFlipsideViewController.m; sourceTree = "<group>"; };
+		73D923CF1729C309004E5BCD /* TBMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBMainViewController.h; path = Test/TBMainViewController.h; sourceTree = "<group>"; };
+		73D923D01729C309004E5BCD /* TBMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBMainViewController.m; path = Test/TBMainViewController.m; sourceTree = "<group>"; };
+		73D923D21729C309004E5BCD /* TBFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TBFlipsideViewController.h; path = Test/TBFlipsideViewController.h; sourceTree = "<group>"; };
+		73D923D31729C309004E5BCD /* TBFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TBFlipsideViewController.m; path = Test/TBFlipsideViewController.m; sourceTree = "<group>"; };
 		73D923DA1729C309004E5BCD /* TestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D923DB1729C309004E5BCD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		73D923E41729C309004E5BCD /* TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTests-Info.plist"; sourceTree = "<group>"; };
 		73D923E61729C309004E5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		73D923E81729C309004E5BCD /* TestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTests.h; sourceTree = "<group>"; };
 		73D923E91729C309004E5BCD /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		73D923F31729C430004E5BCD /* Storyboard-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
+		73D923FC1729C861004E5BCD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		73D923FE1729CB2F004E5BCD /* TB_DefaultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TB_DefaultView.h; path = ../TB_DefaultView.h; sourceTree = "<group>"; };
+		73D923FF1729CB2F004E5BCD /* TB_DefaultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TB_DefaultView.m; path = ../TB_DefaultView.m; sourceTree = "<group>"; };
+		73D9240A1729CF6E004E5BCD /* InputsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputsView.xib; sourceTree = "<group>"; };
+		73D9240C1729D179004E5BCD /* TB-ToolsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TB-ToolsView.h"; sourceTree = "<group>"; };
+		73D9240D1729D179004E5BCD /* TB-ToolsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TB-ToolsView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,7 @@
 		73D923A31729C309004E5BCD = {
 			isa = PBXGroup;
 			children = (
+				73D924011729CD23004E5BCD /* old */,
 				73D923B71729C309004E5BCD /* Test */,
 				73D923E21729C309004E5BCD /* TestTests */,
 				73D923AE1729C309004E5BCD /* Frameworks */,
@@ -128,15 +139,16 @@
 		73D923B71729C309004E5BCD /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				73D923FE1729CB2F004E5BCD /* TB_DefaultView.h */,
+				73D923FF1729CB2F004E5BCD /* TB_DefaultView.m */,
+				73D923F31729C430004E5BCD /* Storyboard-iPad.storyboard */,
 				73D923C01729C309004E5BCD /* TBAppDelegate.h */,
 				73D923C11729C309004E5BCD /* TBAppDelegate.m */,
-				73D923C91729C309004E5BCD /* MainStoryboard.storyboard */,
-				73D923CF1729C309004E5BCD /* TBMainViewController.h */,
-				73D923D01729C309004E5BCD /* TBMainViewController.m */,
-				73D923D21729C309004E5BCD /* TBFlipsideViewController.h */,
-				73D923D31729C309004E5BCD /* TBFlipsideViewController.m */,
 				73D923CC1729C309004E5BCD /* Test.xcdatamodeld */,
 				73D923B81729C309004E5BCD /* Supporting Files */,
+				73D9240A1729CF6E004E5BCD /* InputsView.xib */,
+				73D9240C1729D179004E5BCD /* TB-ToolsView.h */,
+				73D9240D1729D179004E5BCD /* TB-ToolsView.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -172,6 +184,18 @@
 				73D923E51729C309004E5BCD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73D924011729CD23004E5BCD /* old */ = {
+			isa = PBXGroup;
+			children = (
+				73D923FB1729C861004E5BCD /* MainStoryboard.storyboard */,
+				73D923CF1729C309004E5BCD /* TBMainViewController.h */,
+				73D923D01729C309004E5BCD /* TBMainViewController.m */,
+				73D923D21729C309004E5BCD /* TBFlipsideViewController.h */,
+				73D923D31729C309004E5BCD /* TBFlipsideViewController.m */,
+			);
+			name = old;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +274,9 @@
 				73D923C41729C309004E5BCD /* Default.png in Resources */,
 				73D923C61729C309004E5BCD /* Default@2x.png in Resources */,
 				73D923C81729C309004E5BCD /* Default-568h@2x.png in Resources */,
-				73D923CB1729C309004E5BCD /* MainStoryboard.storyboard in Resources */,
+				73D923F41729C430004E5BCD /* Storyboard-iPad.storyboard in Resources */,
+				73D923FD1729C861004E5BCD /* MainStoryboard.storyboard in Resources */,
+				73D9240B1729CF6E004E5BCD /* InputsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +316,8 @@
 				73D923CE1729C309004E5BCD /* Test.xcdatamodeld in Sources */,
 				73D923D11729C309004E5BCD /* TBMainViewController.m in Sources */,
 				73D923D41729C309004E5BCD /* TBFlipsideViewController.m in Sources */,
+				73D924001729CB2F004E5BCD /* TB_DefaultView.m in Sources */,
+				73D9240E1729D179004E5BCD /* TB-ToolsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,20 +348,21 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		73D923C91729C309004E5BCD /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73D923CA1729C309004E5BCD /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		73D923E51729C309004E5BCD /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				73D923E61729C309004E5BCD /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		73D923FB1729C861004E5BCD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73D923FC1729C861004E5BCD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -139,6 +139,9 @@
 		73D923B71729C309004E5BCD /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				73D9240C1729D179004E5BCD /* TB-ToolsView.h */,
+				73D9240D1729D179004E5BCD /* TB-ToolsView.m */,
+				73D9240A1729CF6E004E5BCD /* InputsView.xib */,
 				73D923FE1729CB2F004E5BCD /* TB_DefaultView.h */,
 				73D923FF1729CB2F004E5BCD /* TB_DefaultView.m */,
 				73D923F31729C430004E5BCD /* Storyboard-iPad.storyboard */,
@@ -146,9 +149,6 @@
 				73D923C11729C309004E5BCD /* TBAppDelegate.m */,
 				73D923CC1729C309004E5BCD /* Test.xcdatamodeld */,
 				73D923B81729C309004E5BCD /* Supporting Files */,
-				73D9240A1729CF6E004E5BCD /* InputsView.xib */,
-				73D9240C1729D179004E5BCD /* TB-ToolsView.h */,
-				73D9240D1729D179004E5BCD /* TB-ToolsView.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";

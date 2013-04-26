@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TB_ToolsView : NSObject
+@interface TB_ToolsView : UIViewController
+
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end

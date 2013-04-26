@@ -8,8 +8,10 @@
 
 #import "TBFlipsideViewController.h"
 
-@interface TB_DefaultView 
+@interface TB_DefaultView : UIViewController
 
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+@property (weak, nonatomic) IBOutlet UIButton *ButtonTest;
 
 @end

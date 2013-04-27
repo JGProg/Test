@@ -6,10 +6,9 @@
 //  Copyright (c) 2013 jessy giacomoni. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TB_ToolsView : UIViewController
 
-@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
